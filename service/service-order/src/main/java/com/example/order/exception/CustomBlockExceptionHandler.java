@@ -19,11 +19,15 @@ public class CustomBlockExceptionHandler implements BlockExceptionHandler {
     @Override
     public void handle(HttpServletRequest request, HttpServletResponse response,
                        String resourceName, BlockException e) throws Exception {
+        response.setStatus(429); // Too Many Requests
         response.setContentType("application/json;charset=UTF-8");
 
         PrintWriter writer = response.getWriter();
         R error = R.error(500, resourceName + " 流量被限制了，原因是：" + e.getClass());
         String json = objectMapper.writeValueAsString(error);
         writer.write(json);
+
+        writer.flush();
+        writer.close();
     }
 }

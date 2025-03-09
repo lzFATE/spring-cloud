@@ -1,5 +1,6 @@
 package com.example.order.service.impl;
 
+import com.alibaba.csp.sentinel.SphU;
 import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.alibaba.csp.sentinel.slots.block.BlockException;
 import com.example.order.bean.Order;
@@ -44,6 +45,14 @@ public class OrderServiceImpl implements OrderService {
 
         Order order = new Order();
         order.setId(1L);
+
+//        try {
+//            SphU.entry("haha");
+//
+//        } catch (BlockException e) {
+//            // 编码处理
+//            throw new RuntimeException(e);
+//        }
         // TODO: 计算 总金额
         product.getPrice().multiply(new BigDecimal(product.getNum()));
         order.setTotalAmount(new BigDecimal(product.getNum()));
@@ -52,7 +61,6 @@ public class OrderServiceImpl implements OrderService {
         order.setAddress("北京");
         // TODO: 远程查询 商品列表
         order.setProductList(Arrays.asList(product));
-
         return order;
     }
 
