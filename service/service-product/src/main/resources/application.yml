@@ -1,0 +1,17 @@
+server:
+  port: 12020
+
+spring:
+  application:
+    name: service-product
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        import-check:
+          enabled: false
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+      eager: true

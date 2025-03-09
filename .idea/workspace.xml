@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="673a4d7d-4578-4f22-bcbc-3ea8ad28bc72" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\LenovoSoftstore\Download\maven-repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Install/apache-maven-3.8.8" />
+        <option name="useMavenConfig" value="false" />
+        <option name="userSettingsFile" value="D:\LenovoSoftstore\Install\apache-maven-3.8.8\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+      </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="jdk-17" />
+      </list>
+    </option>
+    <option name="disabledProfiles">
+      <list>
+        <option value="jdk-1.8" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2tkyDYbBtxpPppn7VZ8RNqjtBK5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortKey" value="BY_TIME_ASCENDING" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Notification.DisplayName-DoNotAsk-HotSwap": "Hot Swap performed",
+    "Notification.DoNotAsk-HotSwap": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "jdk.selected.JAVA_MODULE": "1.8.0",
+    "last_opened_file_path": "D:/LenovoSoftstore/Download/ideaproject/spring-cloud/service/service-order/src/main/java/com/example/order",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\LenovoSoftstore\Download\ideaproject\spring-cloud\service\service-order\src\main\java\com\example\order" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+        <option value="MavenRunConfiguration" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.OrderMainApplication">
+    <configuration name="OrderMainApplication - 2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ALTERNATIVE_JRE_PATH" value="17.0.9" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="service-order" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=11011" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.order.OrderMainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderMainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ALTERNATIVE_JRE_PATH" value="17.0.9" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="service-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.order.OrderMainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductMainApplication - 2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ALTERNATIVE_JRE_PATH" value="17.0.9" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="service-product" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=12021" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.product.ProductMainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductMainApplication - 3" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ALTERNATIVE_JRE_PATH" value="17.0.9" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="service-product" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=12022" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.product.ProductMainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductMainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ALTERNATIVE_JRE_PATH" value="17.0.9" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="service-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.product.ProductMainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.OrderMainApplication" />
+      <item itemvalue="Spring Boot.OrderMainApplication - 2" />
+      <item itemvalue="Spring Boot.ProductMainApplication" />
+      <item itemvalue="Spring Boot.ProductMainApplication - 2" />
+      <item itemvalue="Spring Boot.ProductMainApplication - 3" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="673a4d7d-4578-4f22-bcbc-3ea8ad28bc72" name="Changes" comment="" />
+      <created>1740910249442</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740910249442</updated>
+      <workItem from="1740910251292" duration="1247000" />
+      <workItem from="1740917092255" duration="5701000" />
+      <workItem from="1741070865402" duration="173000" />
+      <workItem from="1741071052632" duration="124000" />
+      <workItem from="1741071190076" duration="48000" />
+      <workItem from="1741071283720" duration="4723000" />
+      <workItem from="1741076029148" duration="15163000" />
+      <workItem from="1741164558662" duration="2544000" />
+      <workItem from="1741167127227" duration="2215000" />
+      <workItem from="1741170378926" duration="6532000" />
+      <workItem from="1741185233863" duration="549000" />
+      <workItem from="1741185817809" duration="635000" />
+      <workItem from="1741187258000" duration="1192000" />
+      <workItem from="1741223156270" duration="1322000" />
+      <workItem from="1741245005587" duration="3262000" />
+      <workItem from="1741248307176" duration="7299000" />
+      <workItem from="1741309471013" duration="11504000" />
+      <workItem from="1741494999068" duration="2271000" />
+      <workItem from="1741497422481" duration="4703000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,46 @@
+server:
+  port: 11010
+
+spring:
+  profiles:
+    active: test
+    include: feign
+  application:
+    name: service-order
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+      config:
+        import-check:
+          enabled: false
+        namespace: ${spring.profiles.active:public}
+#        group: service-order
+
+---
+spring:
+  config:
+    import:
+      - nacos:common.yaml?group=service-order
+      - nacos:database.yaml?group=service-order
+    activate:
+      on-profile: dev
+---
+spring:
+  config:
+    import:
+      - nacos:common.yaml?group=service-order
+      - nacos:database.yaml?group=service-order
+      - nacos:redis.yaml?group=service-order
+    activate:
+      on-profile: test
+---
+spring:
+  config:
+    import:
+      - nacos:common.yaml?group=service-order
+      - nacos:database.yaml?group=service-order
+      - nacos:redis.yaml?group=service-order
+    activate:
+      on-profile: prod
+
+
