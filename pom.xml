@@ -12,6 +12,7 @@
     <modules>
         <module>service</module>
         <module>model</module>
+        <module>gateway</module>
     </modules>
     <groupId>com.example</groupId>
     <artifactId>spring-cloud</artifactId>
