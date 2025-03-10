@@ -7,10 +7,8 @@
     <list default="true" id="673a4d7d-4578-4f22-bcbc-3ea8ad28bc72" name="Changes" comment="第一次提交">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-order/src/main/java/com/example/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/example/order/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-order/src/main/java/com/example/order/exception/CustomBlockExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/example/order/exception/CustomBlockExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-order/src/main/java/com/example/order/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-order/src/main/java/com/example/order/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-order/src/main/resources/application-feign.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-order/src/main/resources/application-feign.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-order/target/classes/com/example/order/service/impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-order/target/classes/com/example/order/service/impl/OrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/com/example/product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/com/example/product/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-product/target/classes/com/example/product/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/target/classes/com/example/product/controller/ProductController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +25,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/service/service-order/src/main/java/com/example/order/controller/OrderController.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JsbtTreeLayoutManager">
     <layout place="tools.popupGrunt">
@@ -65,7 +66,9 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2tkyDYbBtxpPppn7VZ8RNqjtBK5" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -200,7 +203,8 @@
       <workItem from="1741494999068" duration="2271000" />
       <workItem from="1741497422481" duration="5877000" />
       <workItem from="1741503508453" duration="273000" />
-      <workItem from="1741503798458" duration="3506000" />
+      <workItem from="1741503798458" duration="5858000" />
+      <workItem from="1741569035891" duration="5808000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <option name="closed" value="true" />
@@ -210,7 +214,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741502316931</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="第一次提交">
+      <option name="closed" value="true" />
+      <created>1741508864835</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741508864835</updated>
+    </task>
+    <task id="LOCAL-00003" summary="第一次提交">
+      <option name="closed" value="true" />
+      <created>1741508873219</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741508873219</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
